@@ -1,5 +1,6 @@
 module.exports = {
-  content: ["./resources/views/*.blade.php"],
+    safelist: ['bg-pink'],
+  content: ['./resources/js/**/*.js','./resources/views/**/*.blade.php'],
   darkMode: 'media',
   theme: {
     screens: {
